@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заметки</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/css/setting/reset.css" />
+    <link rel="stylesheet" href="/css/setting/fonts.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style/notes.css" />
+  </head>
+  <body>
     <div class="notes-container">
-        <h2>Создать заметку</h2>
-        <div id="note-form" class="note-form">
-            <div class="form-group">
-                <label for="note-title">Заголовок:</label>
-                <input type="text" id="note-title" name="note-title" required>
-            </div>
-            <div class="form-group">
-                <label for="note-content">Текст заметки:</label>
-                <textarea id="note-content" name="note-content" rows="4" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="button" onclick="saveNote()">Сохранить</button>
-            </div>
+      <h2>Создать заметку</h2>
+      <div id="note-form" class="note-form">
+        <div class="form-group">
+          <label for="note-title">Заголовок:</label>
+          <input type="text" id="note-title" name="note-title" required />
         </div>
+        <div class="form-group">
+          <label for="note-content">Текст заметки:</label>
+          <textarea
+            id="note-content"
+            name="note-content"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="button" onclick="saveNote()">Сохранить</button>
+        </div>
+      </div>
     </div>
 
     <div class="notes-list" id="notes-list">
-        <!-- Existing notes will be displayed here -->
+      <!-- Existing notes will be displayed here -->
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

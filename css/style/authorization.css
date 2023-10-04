@@ -81,6 +81,10 @@ body {
   text-decoration: underline;
 }
 
+.noaccount1 {
+  font-weight: 500;
+}
+
 .inputbox{
   background: none;
   border: none;
@@ -91,4 +95,5 @@ body {
 
 .autorization{
   font-size: 1.5em;
+  font-weight: 700;
 }

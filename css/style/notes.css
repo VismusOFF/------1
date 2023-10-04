@@ -5,20 +5,20 @@ body {
   background-attachment: fixed;
   animation: backgroundAnimation 20s linear infinite;
 }
-@keyframes backgroundAnimation {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 100% 50%;}
-}
 
   /* Стили для страницы создания заметок */
 .notes-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    position: relative;
+    max-width: 400px;
+    height: 450;
+    margin: 10% auto;
+    padding: 40px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #f2f2f2;
+    z-index: 6;
 }
 
 .notes-container h2 {
@@ -37,16 +37,19 @@ label {
 
 input,
 textarea {
+    background: none;
+    color: #fff;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     border-radius: 5px;
     resize: none
 }
 
 button {
-    background-color: #007BFF;
-    color: white;
+    width: 100%;
+    background-color: #fff;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -54,5 +57,16 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #aeaeae;
+}
+
+.zametka{
+    padding: auto;
+    margin: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.note-form{
+    color: white;
 }

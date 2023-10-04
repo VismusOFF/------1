@@ -1,0 +1,95 @@
+
+.li-list {
+  display: inline-block;
+	width: 45%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.name-li {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+.block-li {
+  display: inline-block;
+  margin: 10px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.text-li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.block-btn {
+  margin: 5px;
+  padding: 5px;
+}
+
+.block-btn button{
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-li-status {
+  outline: 1px solid #249900;
+  background: none;
+  background-image: url(/svg/plus.svg);
+  border-radius: 20px;
+}
+
+.btn-li-status:hover {
+  background: none;
+  background-image: url(/svg/plus-active.svg);
+}
+
+.btn-li-status-active {
+  background-image: url(/svg/plus-active.svg);
+  outline: none;
+  background-color: #249900;
+  border-radius: 20px;
+}
+
+.btn-li-delete {
+  background: none;
+  outline: 1px solid #fc5e5e;
+  background-image: url(/svg/minus.svg);
+}
+
+.btn-li-delete:hover {
+  background: none;
+  background-image: url(/svg/minus-active.svg);
+}
+
+.btn-li-delete:active {
+  background-color: #fc5e5e;
+}
+
+.text-push {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+}
+
+.text-li-active {
+  text-decoration: line-through;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}

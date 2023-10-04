@@ -6,68 +6,69 @@ body {
   animation: backgroundAnimation 20s linear infinite;
 }
 
-  /* Стили для страницы создания заметок */
+/* Стили для страницы создания заметок */
 .notes-container {
-    position: relative;
-    max-width: 400px;
-    height: 450;
-    margin: 10% auto;
-    padding: 40px;
-    background: transparent;
-    border: 2px solid rgba(255,255,255,0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(15px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 6;
+  position: relative;
+  max-width: 400px;
+  height: 450;
+  margin: 10% auto 10px auto;
+  padding: 40px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 6;
 }
 
 .notes-container h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input,
 textarea {
-    background: none;
-    color: #fff;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    resize: none
+  background: none;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  resize: none;
 }
 
-button {
-    width: 100%;
-    background-color: #fff;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 600;
+
+.btn-save {
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
-button:hover {
-    background-color: #aeaeae;
+.btn-save:hover {
+  background-color: #aeaeae;
 }
 
-.zametka{
-    padding: auto;
-    margin: 10px;
-    font-size: 1.5em;
-    color: white;
-    font-weight: 500;
+.zametka {
+  padding: auto;
+  margin: 10px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
 }
 
-.note-form{
-    color: white;
+.note-form {
+  color: white;
 }

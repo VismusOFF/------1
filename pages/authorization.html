@@ -5,35 +5,48 @@
     <link rel="stylesheet" href="/css/setting/reset.css" />
     <link rel="stylesheet" href="/css/setting/fonts.css" />
     <link rel="stylesheet" href="/css/app.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="/css/style/authorization.css"
-    />
+    <link rel="stylesheet" href="/css/style/authorization.css" />
+    <script src="/js/authorization.js" defer></script>
   </head>
   <body>
     <div class="block-page">
       <div class="login-form">
         <h2 class="autorization">Авторизация</h2>
-        <form id="login-form" method="post">
+        <div id="login-form" method="post">
           <div class="form-group">
             <label for="login-username">Почта:</label>
-            <input type="text" id="login-username" name="login-username" class="inputbox"/>
+            <input
+              type="text"
+              id="input-login-authorization"
+              name="login-username"
+              class="inputbox"
+            />
           </div>
           <div class="form-group">
             <label for="login-password">Пароль:</label>
-            <input type="password" id="login-password" name="login-password" class="inputbox" />
+            <input
+              type="password"
+              id="input-password-authorization"
+              name="login-password"
+              class="inputbox"
+              
+            />
           </div>
           <div class="form-group">
             <input
               type="submit"
               value="Авторизоваться"
-              onclick="location.href='/pages/notes.html'"
+              id="btn-push-authorization"
             />
           </div>
-        </form>
-        <p class="noaccount">Нет аккаунта? <a href="registration.html" class="noaccount1">Зарегистрируйтесь</a></p>
+        </div>
+        <p class="noaccount">
+          Нет аккаунта?
+          <a href="registration.html" class="noaccount1">Зарегистрируйтесь</a>
+        </p>
       </div>
     </div>
   </body>
 </html>
+
+<!-- onclick="location.href='/pages/notes.html'" -->

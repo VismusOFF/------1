@@ -6,36 +6,36 @@
     <link rel="stylesheet" href="/css/setting/fonts.css">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" type="text/css" href="/css/style/regstyle.css">
-    <script src="/js/authorization.js" defer></script>
+    <script src="/js/registration.js" defer></script>
   </head>
   <body>
     <div class="block-page1">
       <div class="registration-form">
         <h2 class="registration">Регистрация</h2>
-        <form id="registration-form" method="post">
+        я<div id="registration-form" method="post">
           <div class="form-group">
             <label for="useremail">Почта:</label>
-            <input type="text" id="useremail" name="useremail" class="inputbox">
+            <input type="text" id="useremail1" name="useremail" class="inputbox">
           </div>
         <div class="form-group">
           <label for="username">Имя пользователя:</label>
-          <input type="text" id="username" name="username" class="inputbox">
+          <input type="text" id="username1" name="username" class="inputbox">
         </div>
         <div class="form-group">
           <label for="password">Пароль:</label>
-          <input type="password" id="password" name="password" class="inputbox">
+          <input type="password" id="password1" name="password" class="inputbox">
         </div>
         <div class="form-group">
           <label for="confirm-password">Подтвердите пароль:</label>
-          <input type="password" id="confirm-password" name="confirm-password" class="inputbox">
+          <input type="password" id="confirm-password1" name="confirm-password" class="inputbox">
         </div>
         <div class="btnreg">
           <input 
           type="submit" 
           value="Зарегистрироваться"
-          onclick="location.href='/pages/authorization.html'">
+          id="btn-push-registration">
         </div>
-      </form>
+      </div>
       <p class="yesaccount">Уже есть аккаунт? <a href="authorization.html" class="yesaccount1">Авторизуйтесь</a></p>
     </div>
   </div>
